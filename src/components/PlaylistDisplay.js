@@ -84,7 +84,6 @@ function PlaylistDisplay({playlist, setPlaylist, accessToken, userID}) {
                         <th>Preview</th>
                         <th></th>
                     </tr>
-                    {playlist=='' ? <p>Click on songs from the results to add to your playlist.</p> : ''}
                     {playlist.map((track) => (
                         <SongCard
                             artistName={track.artistName}

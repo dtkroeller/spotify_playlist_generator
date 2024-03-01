@@ -14,7 +14,6 @@ function ResultsDisplay({searchResults, playlist, setPlaylist}) {
                         <th>Preview</th>
                         <th></th>
                     </tr>
-                    {searchResults=='' ? <p>Search for tracks to add to your playlist.</p> : ''}
                     {searchResults.map((track) => (
                         <SongCard 
                             artistName={track.artists[0].name}
