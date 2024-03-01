@@ -13,7 +13,7 @@ function PlaylistCreator() {
 
 
     const CLIENT_ID = '828085bf8fc44b4e97b61c9f65774413'
-    const REDIRECT_URI = 'http://localhost:3000'
+    const REDIRECT_URI = 'https://spotify-playlist-creations.netlify.app/'
     const SCOPE = 'playlist-read-private playlist-modify-private playlist-modify-public user-read-private user-read-email'
 
 
